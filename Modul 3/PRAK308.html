@@ -5,13 +5,54 @@
 	<body>
 		<table border="1" align="center">
 		<tr bgcolor="skyblue" align="center">
-			<th width="250">
+			<th width="450" height="50">
 			<font face="Arial" color="red">Pendaftaran Kursus</font>
 			</th>
 		</tr>
-		<tr bgcolor="grey" align="center">
-			<td width="250">
-			<font face="Arial" color="red">Pendaftaran Kursus</font>
+
+		<tr bgcolor="grey" align="left" height="200">
+			<td>
+			<font face="Arial"><b>Data Diri</b></font>
+			<br><br> <!-- Masih Gatau cara indent ini -->
+			Nama : <input type="text" name="nama">
+			<br>
+			Nim : <input type="text" name="nim" value="" maxlength="9" size="9">
+			<br>
+			Email : <input type="text" name="nama">
+			<br>
+			Tanggal Lahir : <input type="date" name="nama">
+			<br>
+			Jenis Kelamin : <br> <!-- Masih Gatau cara indent ini -->
+				<input type="radio" name="jenis_kelamin" value="L"> Laki-laki <br>
+				<input type="radio" name="jenis_kelamin" value="P"> Perempuan
+			<br>
+			Pilih Program Khusus <br> <!-- Masih Gatau cara indent ini -->
+			<input type="checkbox" name="hobi_1" value="C#"> C#
+			<br>
+			<input type="checkbox" name="hobi_2" value="Game"> Java
+			<br>
+			<input type="checkbox" name="hobi_3" value="SQL"> SQL
+			<br>
+			<input type="checkbox" name="hobi_4" value="HTMLnPHP"> HTML dan PHP
+			<br>
+			Pilihan Hari/Jam Kursus
+			<select name="Orientasi_Minat">
+				<option value="sr">Senin - Rabu/09.00 - 11.00</option>
+				<option value="ks">Kamis - Sabtu/08.00 - 10.00</option>
+			</select>
+			<br><br><br><br>
+			</td>
+		</tr>
+
+		<tr bgcolor="#ff8474">
+			<td>
+			Komentar Anda
+			<br>
+    		<textarea name="komentar" cols="45" rows="5" align="center"></textarea>
+			<br>
+			<input type="reset" value="Reset" name="submit">
+			<input type="submit" value="Submit" name="reset">
+			<input type="button" value="Cancel" name="cancel">
 			</td>
 		</tr>
 	</body>
