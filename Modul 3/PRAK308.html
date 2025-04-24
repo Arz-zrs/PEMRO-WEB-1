@@ -1,90 +1,48 @@
 <html>
     <head>
-        <title>Form</title>
+        <title> TESTING SAJA </title>
     </head>
     <body>
-        <table width="500" height="75" bgcolor="skyblue" align="center">
-			<tr>
-				<th align="center">
-                    <font face="Arial" color="red" size="5">Pendaftaran Kursus</font>
-                </th>
-            </tr>
-        </table>
+        <table border="3" align="center">
+                <tr bgcolor="sky blue"> 
+                    <th colspan="2" width="500" height="60" align="center">
+                        <font face="arial" size="5" color="red">Pendaftaran Kursus</font>
+                    </th>
+                </tr>
 
-        <table width="500" bgcolor="#818282" align="center">
-            <tr>
-                <td colspan="2">
-                    <font face="Arial" size="5"><b>Data Diri</b></font>
-                </td>
-            </tr>
-			<tr>
-                <td>
-                    <br>
-                </td>
-            </tr>
-            <tr>
-                <td width="20%">Nama</td>
-                <td><input type="text" size="20"></td>
-            </tr>
-            <tr>
-                <td>NIM</td>
-                <td><input type="text" size="20"></td>
-            </tr>
-            <tr>
-                <td>E-mail</td>
-                <td><input type="text" size="20"></td>
-            </tr>
-            <tr>
-                <td>Tanggal Lahir</td>
-                <td><input type="date" size="20"></td>
-            </tr>
-            <tr>
-                <td valign="top">Jenis Kelamin</td>
-                <td>
-                    <input type="radio" name="lk">Laki-laki
-                    <br>
-                    <input type="radio" name="pr">Perempuan
-                </td>
-            </tr>
-            <tr>
-                <td valign="top">Pilih Program Kursus</td>
-                <td>
-                    <input type="checkbox">C#
-                    <br>
-                    <input type="checkbox">Java
-                    <br>
-                    <input type="checkbox">SQL
-                    <br>
-                    <input type="checkbox">HTML dan PHP
-                </td>
-            </tr>
-            <tr>
-                <td valign="top">Pilihan Hari/Jam Kursus</td>
-                <td>
-                    <select>
+                <tr bgcolor="gray">
+                    <td colspan="2">
+                        <font face="arial"> <b><h2> Data Diri </h2></b> </font>
+                        Nama <input type="text" name="nama" style="margin-left: 141.5px;"> <br>
+                        Nim <input type="text" name="nim" style="margin-left: 151px;"><br>
+                        E-mail <input type="text" name="email" style="margin-left: 136px;"><br>
+                        Tanggal Lahir <input type="date" name="tanggal" style="margin-left: 89.5px;" ><br>
+                        Jenis Kelamin
+                        <input type="radio" name="jk" value="Laki-laki" style="margin-left: 89px;"> Laki-laki <br>
+                        <input type="radio" name="jk" value="Perempuan" style="margin-left: 184px;"> Perempuan<br>
+                        Pilih Program Kursus
+                        <input type="checkbox" name="kursus" value="C#" style="margin-left: 40px;"> C#<br>
+                        <input type="checkbox" name="kursus" value="Java" style="margin-left: 183px;"> Java<br>
+                        <input type="checkbox" name="kursus" value="SQL" style="margin-left: 183px;"> SQL<br>
+                        <input type="checkbox" name="kursus" value="HTML dan PHP" style="margin-left: 183px;"> HTML dan PHP<br>
+                        Pilihan Hari/Jam Kursus
+                        <select name="jadwal" style="margin-left: 20px;">
                         <option>Senin - Rabu/09.00 - 11.00</option>
-						<option>Kamis - Sabtu/08.00 - 10.00</option>
-                    </select>
-                </td>
-            </tr>
-        </table>
+                        <option>Senin - Rabu/13.00 - 15.00</option>
+                        <option>Kamis - Sabtu/09.00 - 11.00</option>
+                        </select>
+                    </td>
+                </tr>    
 
-        <table width="500" align="center" bgcolor="#ff7f7f">
-            <tr>
-                <td>Komentar Anda</td>
-            </tr>
-            <tr>
-                <td>
-                    <textarea cols="45" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="reset" value="Reset">
-                    <input type="submit" value="Submit">
-                    <input type="button" value="Cancel">
-                </td>
-            </tr>
+                <tr bgcolor="tomato">
+                    <td colspan="2">
+                        Komentar Anda <br> 
+                        <textarea style="resize: none" name="deskripsi" cols="40" rows="4" align="center"></textarea> <br> 
+                        <input type="reset" value="Reset" name="Reset">
+                        <input type="submit" value="Submit" name="Submit">
+                        <input type="button" value="Cancel" name="Cancel">
+                    </td>
+                </tr>    
         </table>
     </body>
 </html>
