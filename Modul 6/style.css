@@ -80,3 +80,26 @@ table.gallery img{
   width: 150px; /* Adjust size as needed */
   height: auto;
 }
+
+/* Footer Text */
+h5.footer-title{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+p.footer-subtitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  color: #aaa;
+  margin-top: 0;
+}
+
+/* Footer Icon */
+div.icons a {
+  transition: color 0.3s;
+}
+
+div.icons a:hover {
+  color: #000; /* or your primary color */
+}
