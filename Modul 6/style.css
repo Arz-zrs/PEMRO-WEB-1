@@ -94,11 +94,3 @@ p.footer-subtitle{
   color: #aaaaaa;
   margin-top: 0;
 }
-
-/* Footer Icon */
-div.icons a {
-  transition: color 0.3s;
-}
-div.icons a:hover {
-  color: #000;
-}
