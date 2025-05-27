@@ -77,7 +77,7 @@ table.gallery{
   border-spacing: 16px;
 }
 table.gallery img{
-  width: 150px; /* Adjust size as needed */
+  width: 150px;
   height: auto;
 }
 
