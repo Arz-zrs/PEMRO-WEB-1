@@ -1,0 +1,82 @@
+/* Main Text */
+p.body1{
+  font-family: 'Playfair Display', serif; 
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  color: #222222;
+  text-align: center;
+}
+p.body2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;                       
+  font-size: 30px;
+  line-height: 1;
+  color: #333333;
+  text-align: center;
+} 
+p.caption{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #888888;
+}
+
+/* Nav Button */
+div.nav-button-container{
+  text-align: center;
+}
+button.nav-button{
+  font-family:'Playfair Display', serif; 
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 16px;
+  background-color: #f8f9fb;      
+  border: 0px solid #222222;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button.nav-button:hover{
+  border: 1px solid #222222;
+  border-radius: 8px;
+}
+button.nav-button.active{
+  border: 1px solid #222222;
+  border-radius: 8px;
+  transform: scale(1);
+}
+
+/* Main Button */
+div.main-button-container{
+  text-align: center;           
+}
+button.main-button{
+  font-family: 'Playfair Display', sans-serif;  
+  font-size: 8px;
+  padding: 6px 14px;
+  background-color: #ffffff;      
+  border: 0px solid #222222;
+  border-radius: 16px;
+  cursor: pointer;
+}
+button.main-button:hover {
+  border: 1px solid #222222;
+}
+button.main-button.active {
+  border: 1px solid #222222;
+  transform: scale(1);
+}
+
+/* Image Galleries*/
+table.gallery{
+  margin: 0 auto;
+  border-spacing: 16px;
+}
+table.gallery img{
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+}
