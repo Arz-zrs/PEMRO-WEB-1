@@ -47,7 +47,6 @@ button.nav-button:hover{
 button.nav-button.active{
   border: 1px solid #222222;
   border-radius: 8px;
-  transform: scale(1);
 }
 
 /* Main Button */
@@ -68,7 +67,6 @@ button.main-button:hover {
 }
 button.main-button.active {
   border: 1px solid #222222;
-  transform: scale(1);
 }
 
 /* Image Galleries*/
