@@ -92,3 +92,50 @@ p.footer-subtitle{
   color: #aaaaaa;
   margin-top: 0;
 }
+
+/* Frame Border */
+div.border-frame {
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+span.bottom-left-border {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+span.bottom-right-border {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+span.top-right-border {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+}
+span.top-left-border {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+}
