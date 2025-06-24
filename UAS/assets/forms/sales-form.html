@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Penjualan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="sales-form-style.css" rel="stylesheet">
+    <script type="text/javascript">
+        function dataSaved() {
+            alert(
+                "Data telah tersimpan.\nTerima kasih atas transaksi yang telah dilakukan."
+            );
+        }
+
+        function cancel() {
+            window.top.location.href = "/UAS/menu.html";
+        }
+    </script>
+</head>
+
+<body>
+    <table border="4" width="450" align="center" class="contact-table">
+        <tr bgcolor="#1F1F1F">
+            <td align="center" colspan="2">
+                <div class="table-heading">FORM PENJUALAN</div>
+            </td>
+        </tr>
+
+        <form action="">
+            <tr bgcolor="#33B1FF">
+                <td>
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td><input type="text" name="nama"></td>
+                        </tr>
+                        <tr>
+                            <td>No. Telp</td>
+                            <td><input type="text" name="nim"></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td><input type="text" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Metode Pembayaran</td>
+                            <td>
+                                <input type="radio" name="payment">Debit/Kredit
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="radio" name="payment">QRis
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr bgcolor="#DDE1E6">
+                <td colspan="2">
+                    Produk yang di Beli<br>
+                    <textarea name="komentar" rows="5" cols="60"></textarea><br><br>
+                    Bukti Pembayaran<br>
+                    <input type="file" accept="image/*" multiple>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit" onclick="dataSaved()">
+                    <input type="button" value="Cancel" onclick="cancel()">
+                </td>
+            </tr>
+    </table>
+    </form>
+</body>
+
+</html>

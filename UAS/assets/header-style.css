@@ -1,0 +1,49 @@
+body {
+    background-color: #607D8B;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    background: linear-gradient(to right, #d3e511, #01ff01);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.caption{
+    background: linear-gradient(to right, #d3e511, #01ff01);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+
+.header-btn button {
+    padding: 10px 16px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 16px;
+    background-color: #00374a;
+    border: 0px solid #222222;
+    border-radius: 8px;
+    cursor: pointer;
+}
