@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    	<div class="selection">
+        Opsi:
+    	<br>
+    	<select name="selection-menu" onchange="handleRedirect(this.value)">
+      		<option value="content.html">All</option>
+      		<option value="content-laptop.html">Laptop</option>
+      		<option value="content-headphone.html" selected>Headphone</option>
+      		<option value="content-camera.html">Camera</option>
+    	</select>
+        </div>
+
+        <table align="center">
+            <tr>
+                <td>
+                    <img src="../../img/headphone1.jpg" class="resized">
+                    <div class="captions">
+                        Rp150.000,00<br>
+                        SoundMaster X<br>
+                        32 Ω @ 1 kHz Impedance<br>
+                        10 Hz – 40 kHz Freq. Resp.
+                    </div>
+                </td>
+                <td>
+                    <img src="../../img/headphone2.jpg" class="resized">
+                    <div class="captions">
+                        Rp70.000,00<br>
+                        SinCos XY<br>
+                        36 Ω ±15% Impedance<br>
+                        8 Hz – 42 kHz Acou. Resp.
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+</html>
